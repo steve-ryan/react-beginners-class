@@ -1,0 +1,6 @@
+# Ignore .env files
+membership-app/.env
+
+# Ignore node_modules directories
+membership-app/frontend/node_modules/
+membership-app/server/node_modules/
