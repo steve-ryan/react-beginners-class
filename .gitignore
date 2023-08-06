@@ -6,7 +6,7 @@ membership-app/.env
 membership-app/frontend/node_modules/
 membership-app/server/node_modules/
 
-simple-blog/env
+simple-blog/.env
 #simple-app 
 simple-blog/backend/node_modules/
 simple-blog/frontend/node_modules/
