@@ -3,4 +3,60 @@
   width: 100%;
 }
 
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+}
+:root {
+--background-color1: #fafaff;
+--background-color2: #ffffff;
+--background-color3: #ededed;
+--background-color4: #cad7fda4;
+--primary-color: #4b49ac;
+--secondary-color: #0c007d;
+--Border-color: #3f0097;
+--one-use-color: #3f0097;
+--two-use-color: #5500cb;
+}
+body{
+  background-color: var(--background-color2);
+}
+.post>.btn-custom,.tally>.card-header{
+  background-color: var(--secondary-color);
+  color: white;
+}
+.post>.btn-custom:hover{
+  background-color: var(--background-color4);
+  color:var(--secondary-color);
+}
 
+
+.sidebar{
+  background-color: var(--secondary-color);
+}
+.navbar{
+  background-color: var(--background-color4);
+  border-bottom: 1px solid var(--one-use-color);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+a.text-success {
+  text-decoration: none;
+margin: 0 5px;
+}
+
+a.text-success:hover {
+  color: red;
+}
+.dpImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
